@@ -6,10 +6,20 @@ import { CONTACT_INFO, getWhatsAppUrl } from '@/constants/contact';
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-12 pb-20 md:pt-16 md:pb-28">
-      {/* Ambient background glow & starry particle pattern (sesuai atmosfer gambar referensi) */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[450px] bg-brand-500/15 blur-[120px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-brand-400/10 blur-[100px] rounded-full pointer-events-none -z-10" />
+    <section className="relative overflow-hidden pt-12 pb-20 md:pt-16 md:pb-28 isolate">
+      {/* Ambient background glow murni CSS radial-gradient (100% aman di iOS Safari, bebas glitch black-box) */}
+      <div
+        className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] pointer-events-none -z-10"
+        style={{
+          background: 'radial-gradient(circle, rgba(44, 92, 147, 0.25) 0%, rgba(11, 34, 73, 0) 70%)',
+        }}
+      />
+      <div
+        className="absolute top-0 right-0 w-[350px] h-[350px] pointer-events-none -z-10"
+        style={{
+          background: 'radial-gradient(circle at top right, rgba(89, 133, 189, 0.20) 0%, rgba(11, 34, 73, 0) 70%)',
+        }}
+      />
       
       <div
         className="absolute inset-0 -z-10 opacity-[0.18] pointer-events-none"

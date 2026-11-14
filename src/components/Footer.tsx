@@ -18,9 +18,19 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-3xl bg-surface-card border border-brand-400/40 p-6 sm:p-12 lg:p-16 text-center max-w-4xl mx-auto shadow-2xl relative overflow-hidden">
             
-            {/* Subtle decorative glow */}
-            <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-400/10 blur-2xl pointer-events-none" />
-            <div className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-brand-400/10 blur-2xl pointer-events-none" />
+            {/* Subtle decorative glow (100% aman untuk Safari & iOS WebKit) */}
+            <div
+              className="absolute -top-24 -right-24 w-64 h-64 rounded-full pointer-events-none"
+              style={{
+                background: 'radial-gradient(circle, rgba(89, 133, 189, 0.20) 0%, transparent 70%)',
+              }}
+            />
+            <div
+              className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full pointer-events-none"
+              style={{
+                background: 'radial-gradient(circle, rgba(89, 133, 189, 0.20) 0%, transparent 70%)',
+              }}
+            />
 
             <div className="relative z-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-dark border border-surface-border text-brand-300 text-xs font-semibold uppercase tracking-wider mb-5">
