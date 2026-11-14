@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-plus-jakarta-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0B2249;
+  color: #E2EDF8;
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Headings font styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-plus-jakarta-sans);
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+/* Focus outline accessibility */
+*:focus-visible {
+  outline: 2px solid #5985BD;
+  outline-offset: 2px;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081730;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E477A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5985BD;
+}
