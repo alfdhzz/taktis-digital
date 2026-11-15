@@ -160,7 +160,7 @@ export default function Team() {
             </p>
           </div>
           <a
-            href={getWhatsAppUrl('Halo Mas Alif & Mas Yusup, saya ingin berdiskusi mengenai rencana pembuatan website perusahaan kami.')}
+            href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-bold text-brand-950 bg-white hover:bg-brand-50 transition-colors shadow-subtle"

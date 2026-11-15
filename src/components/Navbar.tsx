@@ -8,6 +8,7 @@ import { CONTACT_INFO, getWhatsAppUrl } from '@/constants/contact';
 
 const NAV_LINKS = [
   { label: 'Layanan', href: '#layanan' },
+  { label: 'Paket Harga', href: '#paket-harga' },
   { label: 'Alur Kerja', href: '#alur-kerja' },
   { label: 'Portofolio', href: '#portofolio' },
   { label: 'Tim Kami', href: '#tim' },
@@ -72,7 +73,7 @@ export default function Navbar() {
           {/* Desktop Right CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href={getWhatsAppUrl('Halo Taktis Digital, saya ingin konsultasi gratis mengenai proyek website.')}
+              href={getWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-brand-950 bg-white hover:bg-brand-50 transition-all duration-150 shadow-subtle hover:-translate-y-0.5 active:translate-y-0"
@@ -113,7 +114,7 @@ export default function Navbar() {
             ))}
             <div className="pt-3 border-t border-surface-border">
               <a
-                href={getWhatsAppUrl('Halo Taktis Digital, saya ingin konsultasi gratis mengenai proyek website.')}
+                href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

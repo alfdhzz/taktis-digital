@@ -76,7 +76,7 @@ export default function Workflow() {
             </span>
           </div>
           <a
-            href={getWhatsAppUrl('Halo Taktis Digital, saya ingin mendiskusikan timeline proyek yang sedang kami siapkan.')}
+            href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-semibold text-brand-300 hover:text-white underline underline-offset-4 decoration-brand-400 transition-colors"

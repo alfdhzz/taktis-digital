@@ -37,7 +37,7 @@ export default function WhatsAppFloatingButton() {
 
       {/* Floating Action Button */}
       <a
-        href={getWhatsAppUrl('Halo Taktis Digital, saya ingin konsultasi via WhatsApp.')}
+        href={getWhatsAppUrl()}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Hubungi Taktis Digital via WhatsApp"

@@ -78,7 +78,7 @@ export default function Faq() {
             Punya pertanyaan lain yang belum terjawab di sini?
           </p>
           <a
-            href={getWhatsAppUrl('Halo Taktis Digital, saya ingin bertanya lebih lanjut mengenai layanan pembuatan website.')}
+            href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-semibold text-brand-300 hover:text-white underline underline-offset-4 decoration-brand-400 transition-colors"

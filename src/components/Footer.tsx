@@ -47,7 +47,7 @@ export default function Footer() {
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href={getWhatsAppUrl('Halo Taktis Digital, saya ingin berdiskusi mengenai proyek website kami.')}
+                  href={getWhatsAppUrl()}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl text-base font-bold text-brand-950 bg-white hover:bg-brand-50 transition-all duration-200 shadow-lg hover:-translate-y-0.5 active:translate-y-0"

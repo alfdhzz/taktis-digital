@@ -56,7 +56,7 @@ export default function Hero() {
             {/* Dual CTA Actions */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 w-full sm:w-auto mb-10">
               <a
-                href={getWhatsAppUrl('Halo Taktis Digital, saya ingin berdiskusi dan memulai proyek website.')}
+                href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-lg text-base font-bold text-brand-950 bg-white hover:bg-brand-50 transition-all duration-200 shadow-elevated hover:-translate-y-0.5 active:translate-y-0 text-center"

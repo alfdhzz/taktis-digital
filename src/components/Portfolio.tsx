@@ -135,7 +135,7 @@ export default function Portfolio() {
             </p>
           </div>
           <a
-            href={getWhatsAppUrl('Halo Taktis Digital, saya ingin konsultasi ide sistem web kustom untuk bisnis saya.')}
+            href={getWhatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-bold text-brand-950 bg-white hover:bg-brand-50 transition-all duration-150 shadow-subtle hover:-translate-y-0.5 active:translate-y-0"
